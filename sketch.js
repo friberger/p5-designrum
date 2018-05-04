@@ -36,6 +36,8 @@ function draw() {
   var numberOfFingers = afSlider.value();
   background(210, 200, 240);
   ellipse(400, fixed.y-huvud/2, huvud*.8, huvud); //Huvudet
+  ellipse(380, fixed.y-huvud/2-20, huvud*.1, huvud*.1,)
+  ellipse(420, fixed.y-huvud/2-20, huvud*.1, huvud*.1,)
   stroke(128);
   line(fixed.x, fixed.y, fixed.x, fixed.y+kropp);
   line(fixed.x, fixed.y+kropp, fixed.x+lemmar, fixed.y+kropp+lemmar);
